@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# SellerApp Frontend Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Tech Stack](#tech-stack)
+4. [Setup Instructions](#setup-instructions)
+5. [Project Structure](#project-structure)
+6. [Implementation Details](#implementation-details)
+7. [Bonus Features](#bonus-features)
+8. [Deployed Link](#deployed-link)
+9. [Future Improvements](#future-improvements)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Introduction
+This project is a responsive dashboard web application built using **ReactJS**. The dashboard dynamically loads country-specific data, displays various metrics, and provides an interactive user experience. It follows modern frontend development practices and is styled with **Tailwind CSS**.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+1. **Dashboard Layout**:
+   - Sidebar with icons-only navigation.
+   - Top bar with:
+     - Dashboard title.
+     - Country switcher dropdown.
+     - User profile icon.
+   - Main content area for displaying components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Country Switcher**:
+   - Dropdown to select countries like USA, Canada, Germany, and India.
+   - Dynamically updates stats based on the selected country.
 
-### `npm test`
+3. **Stat Cards**:
+   - Metrics include Total Income, Profit, Total Views, and Conversion Rate.
+   - Displays percentage changes compared to the previous month.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Graphs**:
+   - Line chart for Total Revenue and Total Target trends.
+   - Radar chart for sales performance by regions.
 
-### `npm run build`
+5. **Registered Users**:
+   - Circular progress bar showing the distribution of Premium and Basic users.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. **Integration Table**:
+   - Table with app details, integration type, progress bars, and profit values.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Stack
+- **Frontend Framework**: ReactJS
+- **Styling**: Tailwind CSS
+- **State Management**: Redux
+- **Charts**: Chart.js
+- **Data**: Mock JSON API
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Setup Instructions
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/sellerapp-dashboard.git
